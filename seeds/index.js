@@ -6,6 +6,7 @@ const seedProductTags = require('./product-tag-seeds');
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {
+  // this makes sequelize drop the database and then delete everything, so that there is fresh data every time we run the sever
   await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');
   await seedCategories();
