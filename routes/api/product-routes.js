@@ -101,7 +101,7 @@ router.put('/:id', (req, res) => {
         });
       }
 
-      return res.json(product);
+      return res.json(product + "updated");
     })
     .catch((err) => {
       // console.log(err);

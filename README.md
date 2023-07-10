@@ -4,9 +4,9 @@
 This is a command line based e-commerce backend application that utilizes Express.js, MySQL and Sequelize. The application is demonstrated using Thunder Client.
 
 # Links
-[Link to walkthrough video]()
+[Link to walkthrough video](https://drive.google.com/file/d/1wLr_RbzZG_iVgqP7l3_knKcZe1LJfwW_/view)
 
-[Link to GitHub Repository]()
+[Link to GitHub Repository](https://github.com/sydlaub/e-commerce-back-end)
 
 # Installation Instructions
 To run this application on your local machine you will need to install MySQL Workbench from the MySQL website:
